@@ -1,0 +1,5 @@
+#bsm service
+#on property:persist.vendor.lge.service.bsm.bsm_ttf=*
+#   write /sys/class/power_supply/veneer/bsm_ttf ${persist.vendor.lge.service.bsm.bsm_ttf}
+#on property:persist.vendor.lge.service.bsm.bsm_ttf=0
+#   write /sys/class/power_supply/veneer/bsm_ttf 0

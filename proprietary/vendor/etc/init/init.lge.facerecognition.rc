@@ -1,0 +1,4 @@
+
+on post-fs-data
+    mkdir /data/vendor/faceid 0770 system system
+

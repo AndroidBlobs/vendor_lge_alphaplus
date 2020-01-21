@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Configure>
+    <!--
+    SKT_KR (SKT / Korea)
+    KT_KR (KT / Korea)
+    LGU_KR (LG Uplus / Korea)
+    -->
+    <Config operator="" country="KR" device="">
+        <IndicatorType> three_toggleV1N </IndicatorType>
+        <PopupDialogType> INITVALUE </PopupDialogType>
+        <SwpWindowSize> 2 </SwpWindowSize>
+        <LockScreenPollingEnable targetdevice="k5|elsa|mlv5n|lv3|h1|ph1"> true </LockScreenPollingEnable>
+        <EmptyPopupSupport> false </EmptyPopupSupport>
+        <NFCCEventConfig> rffield_EEevent_off </NFCCEventConfig>
+        <NFCCEventConfig targetdevice="judypn|falcon|mmh4|alpha[a-z]*|flash[a-z]*|beta[a-z]*"> INITVALUE </NFCCEventConfig>
+        <HostCardEmulationScenario> config, config, uicc, uicc </HostCardEmulationScenario>
+        <ReaderModeApiSupport> true </ReaderModeApiSupport>
+        <DefaultOnOffType> oncard </DefaultOnOffType>
+        <DefaultOnOffType targetdevice="k5|elsa|mlv5n|lv3|h1|ph1"> oncardrwp2p </DefaultOnOffType>
+        <ConfigFileName targetmodel="LGM-G600[LSK]P"> libnfc-nxp-kr-plus.conf </ConfigFileName>
+        <ConfigFileName targetmodel="LM-X410[LSK]"> libnfc-nxp-kr-alpha.conf </ConfigFileName>
+        <ConfigFileName targetmodel="LM-X410[LSK]" targetrevision="rev_[0a-g]"> libnfc-nxp-kr-alpha-rev_0.conf </ConfigFileName>
+        <BlockRoute> false </BlockRoute>
+        <NfcAntennaPopup targetdevice="joan"> upper_center_small </NfcAntennaPopup>
+        <NfcCoverSupport targetdevice="cv5an"> true </NfcCoverSupport>
+    </Config>
+</Configure>

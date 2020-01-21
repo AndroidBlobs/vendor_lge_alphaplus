@@ -1,0 +1,17 @@
+com.lge.camera
+com.lge.servicemenu
+com.lge.alphadepth
+com.lge.alphatofvcsel
+com.pmdtec.quantumalpha
+com.globaluiservice.main
+com.lge.globaltofservice
+com.lge.alphadepthcalibration
+com.lge.alphabokehdemo
+com.binaryvr.facetracker3ddemo
+com.binaryvr.Tracker3DUnity
+com.lge.lgveinid
+com.lge.qmemoplus
+com.lge.imagecollector
+com.example.fingertrackingtest
+android
+com.lge.tofcovertest

@@ -1,0 +1,8 @@
+service vein_hal /vendor/bin/hw/vendor.lge.hardware.vein@1.0-service
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    # class late_start
+    class hal
+    user system
+    group system media_rw sdcard_rw

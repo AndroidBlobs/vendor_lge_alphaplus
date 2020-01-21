@@ -1,0 +1,4 @@
+service lgpayd-gnd-1-0 /vendor/bin/hw/vendor.gnd.hardware.payment.lgpayd@1.0-service
+    class hal
+    user system
+    group system

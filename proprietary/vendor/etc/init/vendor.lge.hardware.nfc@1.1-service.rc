@@ -1,0 +1,13 @@
+service vendor.lge-nfc-hal-1-1 /vendor/bin/hw/vendor.lge.hardware.nfc@1.1-service
+    interface android.hardware.nfc@1.1::INfc default
+    interface vendor.lge.hardware.nfc@1.1::ILgeNfc_1_1 default
+    class hal
+    user nfc
+    group nfc
+    disabled
+
+on property:ro.boot.vendor.lge.nfc.vendor=nxp
+    start vendor.lge-nfc-hal-1-1
+
+on property:ro.boot.vendor.lge.nfc.vendor=sony
+    start vendor.lge-nfc-hal-1-1

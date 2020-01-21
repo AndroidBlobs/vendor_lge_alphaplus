@@ -1,0 +1,4 @@
+service facerecognition /vendor/bin/hw/vendor.lge.hardware.biometrics.facerecognition@2.1-service
+    class late_start
+    user system
+    group system input media_rw sdcard_rw
